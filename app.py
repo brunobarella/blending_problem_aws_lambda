@@ -89,7 +89,7 @@ for i in produtos_considerados:
 st.markdown("<h1 style='text-align: center; color: red;'>Otimização: Problema da Mistura</h1>", unsafe_allow_html=True)
 
 
-image = Image.open('../figura_principal.png')
+image = Image.open('figures/figura_principal.png')
 
 st.image(image, caption='Problema da Mistura', use_column_width=True)
 
